@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "proxyHomePage": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/"
+      },
+      "backendUri": "https://sttrainingsession.blob.core.windows.net/orders/todo/simple-todo/index.html"
+    },
+    "proxyContent": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/content/{*restOfPath}"
+      },
+      "backendUri": "https://sttrainingsession.blob.core.windows.net/orders/todo/simple-todo/content/{restOfPath}"
+    }
+  }
+}

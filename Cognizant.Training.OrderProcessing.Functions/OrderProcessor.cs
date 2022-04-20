@@ -16,7 +16,8 @@ namespace Cognizant.Training.OrderProcessing.Functions
 
         [Function("OrderProcessor")]
         [BlobOutput("orders/{rand-guid}-output.txt", Connection = "OrdersStorage")]
-        public string Run([ServiceBusTrigger("%OrderProcessingQueue%", Connection = "MessageBus")] string orderCreatedMessage)
+        public string Run(
+            [ServiceBusTrigger("%OrderProcessingQueue%", Connection = "MessageBus")] string orderCreatedMessage)
         {
             var orderCreatedEvent = JsonSerializer.Deserialize<OrderCreatedEvent>(orderCreatedMessage);
 

@@ -13,7 +13,8 @@ namespace Cognizant.Training.OrderProcessing.Functions
         }
 
         [Function("BlobItemChecker")]
-        public void Run([BlobTrigger("orders/{name}", Connection = "OrdersStorage")] string myTriggerItem)
+        public void Run(
+            [BlobTrigger("orders/{name}", Connection = "OrdersStorage")] string myTriggerItem)
         {
             _logger.LogInformation("C# Blob trigger function processed: {myTriggerItem}", myTriggerItem);
         }
