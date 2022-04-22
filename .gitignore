@@ -349,3 +349,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 /Cognizant.Training.OrderProcessing.API/appsettings.Development.json
+/Cognizant.Training.StorageAccount.API/appsettings.Development.json

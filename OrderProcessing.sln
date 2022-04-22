@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognizant.Training.OrderProcessing.API", "Cognizant.Training.OrderProcessing.API\Cognizant.Training.OrderProcessing.API.csproj", "{B09F9758-D969-4027-A4E9-C9995B2AA4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognizant.Training.OrderProcessing.Functions", "Cognizant.Training.OrderProcessing.Functions\Cognizant.Training.OrderProcessing.Functions.csproj", "{9A9BC33E-556F-4D72-8141-231200C021EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognizant.Training.OrderProcessing.Functions", "Cognizant.Training.OrderProcessing.Functions\Cognizant.Training.OrderProcessing.Functions.csproj", "{9A9BC33E-556F-4D72-8141-231200C021EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognizant.Training.StorageAccount.API", "Cognizant.Training.StorageAccount.API\Cognizant.Training.StorageAccount.API.csproj", "{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9A9BC33E-556F-4D72-8141-231200C021EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A9BC33E-556F-4D72-8141-231200C021EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A9BC33E-556F-4D72-8141-231200C021EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
