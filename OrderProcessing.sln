@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognizant.Training.OrderPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognizant.Training.OrderProcessing.Functions", "Cognizant.Training.OrderProcessing.Functions\Cognizant.Training.OrderProcessing.Functions.csproj", "{9A9BC33E-556F-4D72-8141-231200C021EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cognizant.Training.StorageAccount.API", "Cognizant.Training.StorageAccount.API\Cognizant.Training.StorageAccount.API.csproj", "{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognizant.Training.StorageAccount.API", "Cognizant.Training.StorageAccount.API\Cognizant.Training.StorageAccount.API.csproj", "{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppServices", "AppServices", "{9871436D-5B7A-4FDA-9858-BC9C36C3ADFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{0BCCDA37-261D-4C03-B2DD-E78D95B68DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StorageAPI", "StorageAPI", "{C6F3B48D-A79F-44B9-8144-4D93F4F5A881}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B09F9758-D969-4027-A4E9-C9995B2AA4F7} = {9871436D-5B7A-4FDA-9858-BC9C36C3ADFD}
+		{9A9BC33E-556F-4D72-8141-231200C021EF} = {0BCCDA37-261D-4C03-B2DD-E78D95B68DE3}
+		{1BB44AEC-99BA-45F3-B962-6D9C7EB2E036} = {C6F3B48D-A79F-44B9-8144-4D93F4F5A881}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77CA4560-99E3-4E6F-B052-4AE11F6FAB02}
